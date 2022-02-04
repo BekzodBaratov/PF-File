@@ -101,3 +101,55 @@ body{
 .button:hover{
     background-color: #29D089;
 }
+
+.mypochta{
+    background-color: black;
+    padding: 130px 0;
+    position: relative;
+}
+.absolut{
+    position: absolute;
+    right:0;
+    top: -5%;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 180px;
+
+}
+.box1 .title{
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+}
+.box1 .commit1{
+    margin-top: 32px;
+    margin-bottom: 48px;
+    font-size: 20px;
+    line-height: 2;
+    color: white;
+}
+.box1 input{
+    font-size: 22px;
+    padding: 16px 35px;
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    background-color: #262626;
+    color: white;
+}
+.flex-img{
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+}
+.flex-img .commit {
+    font-size: 14px;
+    color: #ACACAC;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
