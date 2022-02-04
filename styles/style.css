@@ -1,0 +1,350 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0;
+    width: 100%;
+}
+.container-3{
+    width: 1140px;
+    margin: 0 auto;
+}
+.free-course{
+    margin:170px 0;
+    padding: 50px 30px;
+    background-color: white;
+    border-radius: 30px;
+}
+.course-fee{
+    font-size: 120px;
+    font-weight: 900;
+    opacity: 0.05;
+    display: flex;
+    justify-content: center;
+}
+.coursecha-fee{
+    font-size: 34px;
+    margin-top: -77px;
+    text-align: center;
+    margin-bottom: 115px;
+}
+.free-course .d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.free-course .d-flex .left .title{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.true{
+    margin-top: 45px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.true .commit{
+    font-size: 14px;
+}
+
+.right{
+    padding: 48px 73px;
+    background-color: black;
+    border-radius: 25px;
+    text-align: center;
+}
+.right del{
+    font-size: 19px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right del span{
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 18px;
+}
+.money{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+.money span{
+    font-size: 34px;
+    margin-right: 26px;
+}
+.comment{
+    font-size: 18px;
+    color: white;
+}
+.button{
+    border-radius: 12px;
+    background-color: #F36732;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    width: 196px;
+    height: 48px;
+    margin-top: 38px;
+    transition: 0.3s linear;
+}
+.button:hover{
+    background-color: #29D089;
+}
+.free-course  hr{
+    background-color: black;
+    opacity: 0.08;
+    margin-top: 65px;
+    margin-bottom: 50px;
+}
+.free-course .text{
+    font-size:18px ;
+    color: black;
+    text-align: center;
+    opacity: 0.49;
+}
+
+.mypochta{
+    background-color: black;
+    padding: 130px 0;
+    position: relative;
+}
+.absolut{
+    position: absolute;
+    right:0;
+    top: -5%;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 180px;
+
+}
+.box1 .title{
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+}
+.box1 .commit1{
+    margin-top: 32px;
+    margin-bottom: 48px;
+    font-size: 20px;
+    line-height: 2;
+    color: white;
+}
+.box1 input{
+    font-size: 22px;
+    padding: 16px 35px;
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    background-color: #262626;
+    color: white;
+}
+.flex-img{
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+}
+.flex-img .commit {
+    font-size: 14px;
+    color: #ACACAC;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.flex-text{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+.flex-text .doira{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: black;
+}
+.texts{
+    font-size: 22px;
+    line-height: 2.5;
+}
+
+.flex-text .title3{
+    font-size: 38px;
+    font-weight: bold;
+}
+.projects{
+    /*background-color: ;*/
+}
+.btn{
+    background-color: #F5F5F5;
+    border-radius: 16px;
+    font-size: 34px;
+    outline: none;
+    border: none;
+    padding: 12px 55px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.boxes{
+    width: 450px;
+    height: 380px;
+    border-radius: 30px;
+    background-color: #F5F5F5;
+    padding-top: 106px;
+}
+.boxcha{
+    /*margin-top: 106px;*/
+    margin: 0 auto;
+    width:287px;
+    height: 512px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px lightgray;
+}
+.nepre{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -116px;
+}
+
+.prev{
+    width: 70px;
+    height: 70px;
+    border-radius: 16px;
+    border: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s linear;
+}
+.prev:hover{
+    background-color: #29D089;
+}
+
+.schedule .flex-line{
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    /*justify-content: space-around;*/
+}
+.start{
+    font-size: 29px;
+    font-weight: bold;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.aylana{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 3px solid #c7c7c7 ;
+}
+.line{
+    width: 200px;
+    height: 1px;
+    border-top: 5px dashed #c7c7c7;
+
+
+}
+.doiracha{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #c7c7c7;
+    /*border: 3px solid black;*/
+}
+
+.flex-day{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.day-input{
+    width: 43%;
+    background-color: white;
+    border-radius: 26px;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:50px 0;
+    font-weight: bold;
+}
+.day-input span{
+    margin:0 40px;
+}
+.flex-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 115px;
+}
+.time{
+    width: 63px;
+    height: 63px;
+    background-color: black;
+    border-radius: 16px;
+    font-size: 33px;
+    font-weight: bold;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup{
+    font-size: 33px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-right: 50px;
+}
+
+.btn-reg{
+    border-radius: 12px;
+    background-color: #F36732;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    width: 196px;
+    height: 48px;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+.btn-reg:hover{
+    background-color: #29D089;
+}
+footer{
+    padding:120px 0;
+    background-color: white;
+}
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgs{
+    display: flex;
+    gap: 40px;
+}
+.contact{
+    font-size: 20px;
+}
+
