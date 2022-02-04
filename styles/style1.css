@@ -81,7 +81,7 @@ body {
   font-size: 1.2rem;
 }
 .cart12 {
-  background-color: lightsteelblue;
+  background-color: #0000c5;
   position: relative;
 }
 .cart12 img {
@@ -91,9 +91,8 @@ body {
   width: 80%;
   height: 60%;
 }
-.cart12 i,
 .cart12 p {
-  color: blue;
+  color: white;
   position: absolute;
   right: 7%;
   top: 6%;
