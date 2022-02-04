@@ -331,3 +331,20 @@ body{
 .btn-reg:hover{
     background-color: #29D089;
 }
+footer{
+    padding:120px 0;
+    background-color: white;
+}
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgs{
+    display: flex;
+    gap: 40px;
+}
+.contact{
+    font-size: 20px;
+}
+
