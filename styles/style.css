@@ -1,0 +1,174 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  background-color: rgb(246, 251, 255);
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* header section */
+.header-section {
+  background-color: #111111;
+  padding: 0.8rem 0;
+}
+.header-section img {
+  width: 8rem;
+}
+.header-section a {
+  font-size: 1.6rem;
+  color: white;
+  text-decoration: none;
+}
+.header-section .box2 {
+  display: flex;
+  gap: 2.4rem;
+}
+.header-section .box3 a {
+  background-color: #414141;
+  padding: 0.8rem 2.4rem;
+  border-radius: 1.6rem;
+}
+/* /header section */
+/* nav section */
+.nav-section {
+  background-color: #111111;
+  padding: 1.6rem 0;
+}
+.nav-section .card {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 3.4rem;
+  box-shadow: 0 0 1.5px rgba(0, 0, 0, 0.529);
+  border-radius: 1.6rem;
+  padding: 4.8rem;
+  transform: translate(0, 20%);
+}
+.nav-section img {
+  width: 100%;
+}
+.nav-section .box1 h1 {
+  font-size: 3.2rem;
+}
+.nav-section h2 {
+  font-size: 2.4rem;
+  color: #888888;
+  font-weight: 500;
+}
+.nav-section p {
+  font-size: 2.4rem;
+  line-height: 2;
+  color: #222;
+  margin-top: 4.8rem;
+}
+.nav-section button {
+  padding: 0.8rem 4.8rem;
+  border-radius: 10px;
+  background-color: orangered;
+  border: 0;
+  color: white;
+  font-size: 1.8rem;
+}
+/* /nav section */
+/* about section */
+.about-section {
+  margin-top: 250px;
+}
+.about-section .card,
+.course-section .container {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.529);
+  padding: 4.8rem;
+  padding-top: 0;
+  border-radius: 1.6rem;
+  background-color: white;
+  position: relative;
+}
+.about-section .box1 img {
+  width: 400px;
+  transform: translate(0, -30%);
+}
+.about-section .box2 p,
+.course-section h1 {
+  font-size: 8rem;
+  color: #e8e8e8;
+  font-weight: 900;
+  margin: 0;
+}
+.about-section .box3 {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2.4rem;
+}
+.about-section .box2::before,
+.course-section h1::before {
+  content: "About Us";
+  position: absolute;
+  font-size: 2.4rem;
+  font-weight: 900;
+  color: #222;
+  left: 63%;
+  top: 22%;
+}
+.about-section p {
+  font-size: 1.8rem;
+  line-height: 2;
+}
+/* /about section */
+/* course section */
+.course-section .container {
+  margin-top: 8rem;
+  padding: 4.8rem;
+  padding-top: 0;
+}
+.course-section h1 {
+  padding-top: 1.6rem;
+  text-align: center;
+}
+.course-section h1::before {
+  content: "Course Experience";
+  top: 6.4rem;
+  left: 38%;
+}
+.course-section .one {
+  border: 1px solid #222;
+  margin: 3.2rem 10%;
+  border-radius: 0.8rem;
+  padding: 0;
+}
+.course-section .flex {
+  gap: 5%;
+}
+.course-section .flex > div {
+  width: 50%;
+}
+.course-section img {
+  width: 100%;
+}
+.course-section a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #222;
+  padding: 0.8rem 3.2rem;
+}
+.course-section a:last-child {
+  background-color: #111111;
+  border-top-right-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+  color: white;
+}
+.course-section p {
+  font-size: 1.5rem;
+  line-height: 2.5;
+}

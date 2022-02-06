@@ -1,0 +1,207 @@
+@media (max-width: 75em) {
+  .header-section .box2 {
+    gap: 1.6rem;
+  }
+  .header-section a {
+    font-size: 1.3rem;
+  }
+  .header-section img {
+    width: 6.4rem;
+  }
+  .nav-section p {
+    font-size: 1.6rem;
+  }
+  .nav-section .card {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-section .box3 img {
+    width: 2.4rem;
+  }
+  .course-section a {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 62.5em) {
+  .nav-section .box1 h1 {
+    margin: 0 auto;
+    font-size: 2.2rem;
+  }
+  .nav-section .box1 h2 {
+    font-size: 1.8rem;
+  }
+  .nav-section p {
+    font-size: 1.6rem;
+    margin-top: 2.4rem;
+  }
+  .nav-section .card {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-section .flex {
+    gap: 1.6rem;
+  }
+  .about-section .box1 img {
+    width: 24rem;
+  }
+  .about-section .box3 img {
+    width: 1.8rem;
+  }
+  .course-section a {
+    font-size: 0.6rem;
+  }
+  .course-section h1 {
+    font-size: 4.8rem;
+  }
+  .course-section h1::before {
+    font-size: 1.8rem;
+    top: 8%;
+  }
+  .course-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+}
+@media (max-width: 50em) {
+  .header-section .flex {
+    gap: 0.8rem;
+  }
+  .header-section a {
+    font-size: 0.8rem;
+  }
+  .header-section img {
+    width: 3.8rem;
+  }
+  .nav-section .card {
+    gap: 1rem;
+    grid-template-columns: 1.3fr 1fr;
+  }
+  .nav-section .box1 h1 {
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+  .nav-section .box1 h2 {
+    font-size: 1.1rem;
+  }
+  .nav-section p {
+    margin: 0;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+  }
+  .nav-section button {
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .nav-section .card {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-section {
+    margin-top: 12rem;
+  }
+  .about-section .card {
+    padding-top: 1rem;
+  }
+  .about-section .box1 img {
+    width: 17rem;
+  }
+  .about-section .box2 p {
+    font-size: 5rem;
+  }
+  .about-section .box2::before {
+    font-size: 1.2rem;
+    /* top: 10%; */
+  }
+  .about-section .box3 img {
+    width: 2rem;
+  }
+  .about-section p {
+    font-size: 1rem;
+  }
+  .course-section a {
+    font-size: 0.3rem;
+  }
+  .course-section h1 {
+    font-size: 3rem;
+  }
+  .course-section h1::before {
+    font-size: 1.2rem;
+    top: 8%;
+  }
+  .course-section p {
+    font-size: 0.7rem;
+    line-height: 1.6;
+  }
+}
+@media (max-width: 37.5em) {
+  .header-section .flex {
+    gap: 0.8rem;
+  }
+  .header-section .box2 {
+    gap: 1rem;
+  }
+  .header-section a {
+    font-size: 0.6rem;
+  }
+  .header-section img {
+    width: 3rem;
+  }
+  .header-section .box3 a {
+    padding: 0.4rem 1rem;
+  }
+  .nav-section .card {
+    padding: 2rem;
+  }
+  .nav-section .box1 h1 {
+    font-size: 1rem;
+  }
+  .nav-section .box1 h2 {
+    font-size: 1rem;
+  }
+  .nav-section p {
+    font-size: 0.7rem;
+    margin-top: 0;
+  }
+  .nav-section button {
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+  }
+  .about-section {
+    margin-top: 12rem;
+  }
+  .about-section .card {
+    padding-top: 1rem;
+    padding: 2rem;
+  }
+  .about-section .box1 img {
+    width: 15rem;
+    transform: translate(0, -40%);
+  }
+  .about-section .box2 p {
+    font-size: 3rem;
+  }
+  .about-section .box2::before {
+    font-size: 1.2rem;
+    top: 30%;
+  }
+  .about-section .box3 img {
+    width: 1.5rem;
+  }
+  .course-section .container {
+    padding: 2rem;
+  }
+  .course-section .one {
+    margin: 1rem 5%;
+  }
+  .course-section a {
+    font-size: 0.5rem;
+    padding: 4px 10px;
+  }
+  .course-section h1 {
+    font-size: 2.5rem;
+  }
+  .course-section h1::before {
+    font-size: 1rem;
+    top: 19%;
+  }
+}
